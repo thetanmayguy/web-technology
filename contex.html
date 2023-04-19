@@ -1,0 +1,31 @@
+<html>
+    <style>
+        div p{
+            color:cadetblue;
+        }
+        div > p{
+            background-color:greenyellow;
+        }
+        div + p{
+            background-color: aquamarine;
+        }
+        div ~ a{
+            background-color: bisque;
+        }
+
+    </style>
+    <body>
+        <p>hello there</p>
+        <div>
+            <p>inside div</p>
+            <p>inside div again</p>
+            <h1>head 1</h1>
+            <span>
+                <p>inside span</p>
+            </span>
+        </div>
+        <p>adjacent sibling</p>
+        <a>google</a>
+        <p>general sibling</p>
+    </body>
+</html>
